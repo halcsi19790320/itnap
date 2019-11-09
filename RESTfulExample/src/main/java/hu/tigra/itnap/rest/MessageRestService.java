@@ -21,7 +21,6 @@ public class MessageRestService {
 		boolean open = fileDao.checkConnection();
 		result = "/n" + "checkConnection : " + open;
 		return Response.status(200).entity(result).build();
-
 	}
 
 }
